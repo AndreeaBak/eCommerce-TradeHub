@@ -38,24 +38,19 @@ public class PaymentController {
 
         User user = userService.findUserProfileByJwt(jwt);
 
-        PaymentLinkResponse paymentResponse;
+        PaymentOrder order = paymentService.getPaymentOrderById(orderId);
 
-        PaymentOrder order= paymentService.getPaymentOrderById(orderId);
+        PaymentLinkResponse paymentResponse = new PaymentLinkResponse();
 
-//        if(paymentMethod.equals(PaymentMethod.RAZORPAY)){
-//            paymentResponse=paymentService.createRazorpayPaymentLink(user,
-//                    order.getAmount(),
-//                    order.getId());
-//        }
-//        else{
-//            paymentResponse=paymentService.createStripePaymentLink(user,
-//                    order.getAmount(),
-//                    order.getId());
-//        }
+        // Acum creăm DOAR Stripe Payment Link
+        String paymentUrl = paymentService.createStripePaymentLink(user,
+                order.getAmount(),
+                order.getId());
 
-        return new ResponseEntity<>(null, HttpStatus.CREATED);
+        paymentResponse.setPayment_link_url(paymentUrl);
+
+        return new ResponseEntity<>(paymentResponse, HttpStatus.CREATED);
     }
-
 
     @GetMapping("/api/payment/{paymentId}")
     public ResponseEntity<ApiResponse> paymentSuccessHandler(
@@ -65,40 +60,32 @@ public class PaymentController {
 
         User user = userService.findUserProfileByJwt(jwt);
 
-        PaymentLinkResponse paymentResponse;
+        PaymentOrder paymentOrder = paymentService.getPaymentOrderByPaymentId(paymentLinkId);
 
-        PaymentOrder paymentOrder= paymentService
-                .getPaymentOrderByPaymentId(paymentLinkId);
+        boolean paymentSuccess = paymentService.completePaymentOrder(paymentOrder);
 
-        boolean paymentSuccess = paymentService.ProceedPaymentOrder(
-                paymentOrder,
-                paymentId,
-                paymentLinkId
-        );
-        if(paymentSuccess){
-            for(Order order:paymentOrder.getOrders()){
+        if (paymentSuccess) {
+            for (Order order : paymentOrder.getOrders()) {
                 transactionService.createTransaction(order);
-                Seller seller=sellerService.getSellerById(order.getSellerId());
-                SellerReport report=sellerReportService.getSellerReport(seller);
-                report.setTotalOrders(report.getTotalOrders()+1);
-                report.setTotalEarnings(report.getTotalEarnings()+order.getTotalSellingPrice());
-                report.setTotalSales(report.getTotalSales()+order.getOrderItems().size());
+                Seller seller = sellerService.getSellerById(order.getSellerId());
+                SellerReport report = sellerReportService.getSellerReport(seller);
+                report.setTotalOrders(report.getTotalOrders() + 1);
+                report.setTotalEarnings(report.getTotalEarnings() + order.getTotalSellingPrice());
+                report.setTotalSales(report.getTotalSales() + order.getOrderItems().size());
                 sellerReportService.updateSellerReport(report);
             }
-            Cart cart=cartRepository.findByUserId(user.getId());
+
+            Cart cart = cartRepository.findByUserId(user.getId());
             cart.setCouponPrice(0);
             cart.setCouponCode(null);
-//        Set<CartItem> items=cart.getCartItems();
-//        cartItemRepository.deleteAll(items);
-//        cart.setCartItems(new HashSet<>());
             cartRepository.save(cart);
-
         }
-      
+
         ApiResponse res = new ApiResponse();
         res.setMessage("Payment successful");
         res.setStatus(true);
 
         return new ResponseEntity<>(res, HttpStatus.CREATED);
     }
+
 }

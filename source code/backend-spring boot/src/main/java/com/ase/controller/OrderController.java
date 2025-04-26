@@ -1,7 +1,5 @@
 package com.ase.controller;
 
-import com.razorpay.PaymentLink;
-import com.razorpay.RazorpayException;
 import com.stripe.exception.StripeException;
 import com.ase.domain.PaymentMethod;
 import com.ase.exception.OrderException;
@@ -33,45 +31,30 @@ public class OrderController {
 	private final SellerReportService sellerReportService;
 	private final SellerService sellerService;
 
-	
+
 	@PostMapping()
 	public ResponseEntity<PaymentLinkResponse> createOrderHandler(
-			@RequestBody Address spippingAddress,
+			@RequestBody Address shippingAddress,
 			@RequestParam PaymentMethod paymentMethod,
-			@RequestHeader("Authorization")String jwt)
-            throws UserException, RazorpayException, StripeException {
-		
-		User user=userService.findUserProfileByJwt(jwt);
-		Cart cart=cartService.findUserCart(user);
-		Set<Order> orders =orderService.createOrder(user, spippingAddress,cart);
+			@RequestHeader("Authorization") String jwt)
+			throws UserException, StripeException {
 
-		PaymentOrder paymentOrder=paymentService.createOrder(user,orders);
+		User user = userService.findUserProfileByJwt(jwt);
+		Cart cart = cartService.findUserCart(user);
+		Set<Order> orders = orderService.createOrder(user, shippingAddress, cart);
+
+		PaymentOrder paymentOrder = paymentService.createOrder(user, orders);
 
 		PaymentLinkResponse res = new PaymentLinkResponse();
 
-		if(paymentMethod.equals(PaymentMethod.RAZORPAY)){
-			PaymentLink payment=paymentService.createRazorpayPaymentLink(user,
-					paymentOrder.getAmount(),
-					paymentOrder.getId());
-			String paymentUrl=payment.get("short_url");
-			String paymentUrlId=payment.get("id");
+		String paymentUrl = paymentService.createStripePaymentLink(user,
+				paymentOrder.getAmount(),
+				paymentOrder.getId());
+		res.setPayment_link_url(paymentUrl);
 
-
-			res.setPayment_link_url(paymentUrl);
-//			res.setPayment_link_id(paymentUrlId);
-			paymentOrder.setPaymentLinkId(paymentUrlId);
-			paymentOrderRepository.save(paymentOrder);
-		}
-		else{
-			String paymentUrl=paymentService.createStripePaymentLink(user,
-					paymentOrder.getAmount(),
-					paymentOrder.getId());
-			res.setPayment_link_url(paymentUrl);
-		}
-		return new ResponseEntity<>(res,HttpStatus.OK);
-
+		return new ResponseEntity<>(res, HttpStatus.OK);
 	}
-	
+
 	@GetMapping("/user")
 	public ResponseEntity< List<Order>> usersOrderHistoryHandler(
 			@RequestHeader("Authorization")

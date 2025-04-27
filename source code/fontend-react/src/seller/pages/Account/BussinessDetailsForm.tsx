@@ -14,12 +14,12 @@ const BusinessDetailsForm = ({ onClose }: UpdateDetailsFormProps) => {
   const formik = useFormik({
     initialValues: {
       businessName: "",
-      gstin: "",
+      cif: "",
       accountStatus: "",
     },
     validationSchema: Yup.object({
       businessName: Yup.string().required("Business Name is required"),
-      gstin: Yup.string().required("GSTIN is required"),
+      cif: Yup.string().required("CIF is required"),
       accountStatus: Yup.string().required("Account Status is required"),
     }),
     onSubmit: (values) => {
@@ -38,7 +38,7 @@ const BusinessDetailsForm = ({ onClose }: UpdateDetailsFormProps) => {
     if (sellers.profile) {
       formik.setValues({
         businessName: sellers.profile?.businessDetails?.businessName,
-        gstin: sellers.profile?.gstin,
+        cif: sellers.profile?.cif,
         accountStatus: sellers.profile?.accountStatus ?? "",
       });
     }
@@ -64,13 +64,13 @@ const BusinessDetailsForm = ({ onClose }: UpdateDetailsFormProps) => {
         />
         <TextField
           fullWidth
-          id="gstin"
-          name="gstin"
-          label="GSTIN"
-          value={formik.values.gstin}
+          id="cif"
+          name="cif"
+          label="CIF"
+          value={formik.values.cif}
           onChange={formik.handleChange}
-          error={formik.touched.gstin && Boolean(formik.errors.gstin)}
-          helperText={formik.touched.gstin && formik.errors.gstin}
+          error={formik.touched.cif && Boolean(formik.errors.cif)}
+          helperText={formik.touched.cif && formik.errors.cif}
         />
         <TextField
           fullWidth

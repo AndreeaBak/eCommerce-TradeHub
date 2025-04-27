@@ -24,7 +24,7 @@ export interface Seller {
     id?:number;
     mobile: string;
     otp: string;
-    gstin: string;
+    cif: string;
     pickupAddress: PickupAddress;
     bankDetails: BankDetails;
     sellerName: string;

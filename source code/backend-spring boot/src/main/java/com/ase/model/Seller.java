@@ -34,7 +34,7 @@ public class Seller {
     @OneToOne(cascade = CascadeType.ALL)
     private Address pickupAddress=new Address();
 
-    private String GSTIN;
+    private String CIF;
 
     private USER_ROLE role;
 

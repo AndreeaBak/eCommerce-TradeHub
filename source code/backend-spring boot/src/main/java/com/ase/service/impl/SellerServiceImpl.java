@@ -46,7 +46,7 @@ public class SellerServiceImpl implements SellerService {
         newSeller.setEmail(seller.getEmail());
         newSeller.setPickupAddress(savedAddress);
         newSeller.setSellerName(seller.getSellerName());
-        newSeller.setGSTIN(seller.getGSTIN());
+        newSeller.setCIF(seller.getCIF());
         newSeller.setRole(USER_ROLE.ROLE_SELLER);
         newSeller.setMobile(seller.getMobile());
 
@@ -136,8 +136,8 @@ public class SellerServiceImpl implements SellerService {
             existingSeller.getPickupAddress().setMobile(seller.getPickupAddress().getMobile());
             existingSeller.getPickupAddress().setPinCode(seller.getPickupAddress().getPinCode());
         }
-        if (seller.getGSTIN() != null) {
-            existingSeller.setGSTIN(seller.getGSTIN());
+        if (seller.getCIF() != null) {
+            existingSeller.setCIF(seller.getCIF());
         }
 
 

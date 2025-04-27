@@ -131,8 +131,8 @@ const Profile = () => {
           />
           <Divider />
           <ProfileFildCard
-            keys={"GSTIN"}
-            value={sellers.profile?.gstin || "not provided"}
+            keys={"CIF"}
+            value={sellers.profile?.cif || "not provided"}
           />
           <Divider />
           <ProfileFildCard

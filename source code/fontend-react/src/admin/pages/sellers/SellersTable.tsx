@@ -107,7 +107,7 @@ export default function SellersTable() {
                             <StyledTableCell>Seller Name</StyledTableCell>
                             <StyledTableCell >Email</StyledTableCell>
                             <StyledTableCell >Mobile</StyledTableCell>
-                            <StyledTableCell >GSTIN</StyledTableCell>
+                            <StyledTableCell >CIF</StyledTableCell>
                             <StyledTableCell >Bussiness Name</StyledTableCell>
                             <StyledTableCell align="right">Account Status</StyledTableCell>
                             <StyledTableCell align="right">Change Status</StyledTableCell>
@@ -121,7 +121,7 @@ export default function SellersTable() {
                                 </StyledTableCell>
                                 <StyledTableCell >{seller.email}</StyledTableCell>
                                 <StyledTableCell >{seller.mobile}</StyledTableCell>
-                                <StyledTableCell >{seller.gstin}</StyledTableCell>
+                                <StyledTableCell >{seller.cif}</StyledTableCell>
                                 <StyledTableCell >{seller.businessDetails?.businessName}</StyledTableCell>
                                 <StyledTableCell align="right">{seller.accountStatus}</StyledTableCell>
                                 <StyledTableCell align="right">

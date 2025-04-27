@@ -34,7 +34,7 @@ const SellerAccountForm = () => {
     initialValues: {
       mobile: "",
       otp: "",
-      gstin: "",
+      cif: "",
       pickupAddress: {
         name: "",
         mobile: "",

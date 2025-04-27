@@ -23,11 +23,6 @@ const style = {
 
 const paymentGatwayList = [
     {
-        value: "RAZORPAY",
-        image: "https://razorpay.com/newsroom-content/uploads/2020/12/output-onlinepngtools-1-1.png",
-        label: "Razarpay"
-    },
-    {
         value: "STRIPE",
         image: "/stripe_logo.png",
         label: "Stripe"

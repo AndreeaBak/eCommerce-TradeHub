@@ -89,6 +89,10 @@ public class PaymentServiceImpl implements PaymentService {
                 ).build();
 
         Session session = Session.create(params);
+        PaymentOrder paymentOrder = paymentOrderRepository.findById(orderId)
+                .orElseThrow(() -> new RuntimeException("Order not found"));
+        paymentOrder.setPaymentLinkId(session.getId());
+        paymentOrderRepository.save(paymentOrder);
 
         return session.getUrl();
     }

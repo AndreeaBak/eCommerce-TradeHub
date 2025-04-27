@@ -13,6 +13,6 @@ public class BankDetails {
     private String accountNumber;
     private String accountHolderName;
 //    private String bankName;
-    private String ifscCode;
+    private String ibanCode;
 
 }

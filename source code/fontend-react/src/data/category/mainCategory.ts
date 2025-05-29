@@ -5,32 +5,32 @@ export const mainCategory = [
     level: 1,
     levelTwoCategory:[
         {
-            "name": "Topwere",
+            "name": "Topwear",
             "categoryId": "men_topwear",
             "parentCategoryId":"men",
             "level":2
         },
         {
-            "name": "Bottomwere",
+            "name": "Bottomwear",
             "categoryId": "men_bottomwear",
             "parentCategoryId":"men",
             "level":2
         },
         {
-            "name": "Innerwere And Sleepwere",
-            "categoryId": "men_innerwear_and_sleepwear",
+            "name": "Underwear And Sleepwear",
+            "categoryId": "men_underwear_and_sleepwear",
             "parentCategoryId":"men",
             "level":2
         },
         {
-            "name": "Footwere",
+            "name": "Footwear",
             "categoryId": "men_footwear",
             "parentCategoryId":"men",
             "level":2
         },
         {
-            "name": "Persional Care And  grooming",
-            "categoryId": "men_personal_care_and_grooming",
+            "name": "Personal Care",
+            "categoryId": "men_personal_care",
             "parentCategoryId":"men",
             "level":2
         },
@@ -62,14 +62,14 @@ export const mainCategory = [
         {
           "parentCategoryId":"women",
           "level":2,
-          "name":"Indian & fusion Wear",
-          "categoryId": "women_indian_and_fusion_wear"
+          "name":"Casual Style",
+          "categoryId": "women_casual_style"
         },
         {
           "parentCategoryId":"women",
           "level":2,
-          "name":"western wear",
-          "categoryId": "women_western_wear"
+          "name":"Office Style",
+          "categoryId": "women_office_style"
         },
         {
           "parentCategoryId":"women",
@@ -86,13 +86,13 @@ export const mainCategory = [
         {
           "parentCategoryId":"women",
           "level":2,
-          "name":"Lingerie Sleepwear",
+          "name":"Lingerie & Sleepwear",
           "categoryId": "women_lingerie_sleepwear"
         },
         {
           "parentCategoryId":"women",
           "level":2,
-          "name":"Buauty & Personal Care",
+          "name":"Beauty & Personal Care",
           "categoryId": "women_beauty_personal_care"
         },
         {
@@ -110,7 +110,7 @@ export const mainCategory = [
         {
           "parentCategoryId":"women",
           "level":2,
-          "name":"Handbags, Bags & wallets",
+          "name":"Handbags, Bags & Wallets",
           "categoryId": "women_handbags_bags_wallets"
         }
       ]

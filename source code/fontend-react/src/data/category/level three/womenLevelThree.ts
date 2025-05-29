@@ -1,205 +1,156 @@
 export const womenLevelThree = [
     {
-        "name": "Women Kurtas & Suits",
-        "categoryId": "women_kurtas_and_suits",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Kurtis, Tunics & Tops",
-        "categoryId": "women_kurtis_tunics_tops",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Sarees",
-        "categoryId": "women_sarees",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Ethnic Wear",
-        "categoryId": "women_ethnic_wear",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Leggings, Salwars & Churidars",
-        "categoryId": "women_leggings_salwars_churidars",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Skirts & Palazzos",
-        "categoryId": "women_skirts_palazzos",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Dress Materials",
-        "categoryId": "women_dress_materials",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Lehenga Cholis",
-        "categoryId": "women_lehenga_cholis",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Dupattas & Shawls",
-        "categoryId": "women_dupattas_shawls",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Jackets",
-        "categoryId": "women_jackets",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Belts, Scarves & More",
-        "categoryId": "women_belts_scarves_more",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Watches & Wearables",
-        "categoryId": "women_watches_wearables",
-        "parentCategoryName": "Indian & Fusion Wear",
-        "parentCategoryId": "women_indian_and_fusion_wear",
-        "level":3
-    },
-    {
-        "name": "Women Western Wear",
-        "categoryId": "women_western_wear",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
-        "level":3
-    },
-    {
-        "name": "Women Dresses",
-        "categoryId": "women_dresses",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "name": "Women Casual Style",
+        "categoryId": "women_casual_suits",
+        "parentCategoryName": "Casual Style",
+        "parentCategoryId": "women_casual_style",
         "level":3
     },
     {
         "name": "Women Tops",
         "categoryId": "women_tops",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Casual Style",
+        "parentCategoryId": "women_casual_style",
+        "level":3
+    },
+    {
+        "name": "Women Dresses",
+        "categoryId": "women_dresses",
+        "parentCategoryName": "Casual Style",
+        "parentCategoryId": "women_casual_style",
+        "level":3
+    },
+    {
+        "name": "Women Jumpsuit",
+        "categoryId": "women_jumpsuit",
+        "parentCategoryName": "Casual Style",
+        "parentCategoryId": "women_casual_style",
+        "level":3
+    },
+    {
+        "name": "Women Leggings",
+        "categoryId": "women_leggings",
+        "parentCategoryName": "Casual Style",
+        "parentCategoryId": "women_casual_style",
+        "level":3
+    },
+    {
+        "name": "Women Skirts",
+        "categoryId": "women_skirts",
+        "parentCategoryName": "Casual Style",
+        "parentCategoryId": "women_casual_style",
+        "level":3
+    },
+    {
+        "name": "Women Jackets",
+        "categoryId": "women_jackets",
+        "parentCategoryName": "Casual Style",
+        "parentCategoryId": "women_casual_style",
+        "level":3
+    },
+    {
+        "name": "Women Belts, Scarves & More",
+        "categoryId": "women_belts_scarves_more",
+        "parentCategoryName": "Casual Style",
+        "parentCategoryId": "women_casual_style",
+        "level":3
+    },
+    {
+        "name": "Women Watches & Wearables",
+        "categoryId": "women_watches_wearables",
+        "parentCategoryName": "Casual Style",
+        "parentCategoryId": "women_casual_style",
+        "level":3
+    },
+    {
+        "name": "Women Office Style",
+        "categoryId": "women_office_style",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
+        "level":3
+    },
+    {
+        "name": "Women Dresses",
+        "categoryId": "women_dresses",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
+        "level":3
+    },
+    {
+        "name": "Women Tops",
+        "categoryId": "women_tops",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
         "name": "Women Tshirts",
         "categoryId": "women_tshirts",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
         "name": "Women Jeans",
         "categoryId": "women_jeans",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
-        "name": "Women Trousers & Capris",
-        "categoryId": "women_trousers_capris",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "name": "Women Trousers",
+        "categoryId": "women_trousers",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
         "name": "Women Shorts & Skirts",
         "categoryId": "women_shorts_skirts",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
-        "level":3
-    },
-    {
-        "name": "Women Co-ords",
-        "categoryId": "women_coords",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
-        "level":3
-    },
-    {
-        "name": "Women Playsuits",
-        "categoryId": "women_playsuits",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
-        "level":3
-    },
-    {
-        "name": "Women Jumpsuits",
-        "categoryId": "women_jumpsuits",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
-        "level":3
-    },
-    {
-        "name": "Women Shrugs",
-        "categoryId": "women_shrugs",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
         "name": "Women Sweaters & Sweatshirts",
         "categoryId": "women_sweaters_sweatshirts",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
         "name": "Women Jackets & Coats",
         "categoryId": "women_jackets_coats",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
         "name": "Women Blazers & Waistcoats",
         "categoryId": "women_blazers_waistcoats",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
         "name": "Women Plus Size",
         "categoryId": "women_plus_size",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
         "name": "Women Maternity",
         "categoryId": "women_maternity",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {
         "name": "Women Sunglasses & Frames",
         "categoryId": "women_sunglasses_frames",
-        "parentCategoryName": "Western Wear",
-        "parentCategoryId": "women_western_wear",
+        "parentCategoryName": "Office Style",
+        "parentCategoryId": "women_office_style",
         "level":3
     },
     {

@@ -15,19 +15,19 @@ const PricingCard = ({ showBuyButton, SubmitButton }: any) => {
       <div className="space-y-3 p-5">
         <div className="flex justify-between items-center">
           <span>Subtotal</span>
-          <span>₹ {cart.cart?.totalMrpPrice}</span>
+          <span>lei {cart.cart?.totalMrpPrice}</span>
         </div>
         <div className="flex justify-between items-center">
           <span>Discount</span>
           <span>
-            ₹{" "}
+            lei{" "}
             {sumCartItemMrpPrice(cart.cart?.cartItems || []) -
               sumCartItemSellingPrice(cart.cart?.cartItems || [])}
           </span>
         </div>
         <div className="flex justify-between items-center">
           <span>Shipping</span>
-          <span>₹ 79</span>
+          <span>lei 79</span>
         </div>
         <div className="flex justify-between items-center">
           <span>plateform fee</span>
@@ -38,7 +38,7 @@ const PricingCard = ({ showBuyButton, SubmitButton }: any) => {
 
       <div className="font-medium px-5 py-2 flex justify-between items-center">
         <span>Total</span>
-        <span>₹ {cart.cart?.totalSellingPrice}</span>
+        <span>lei {cart.cart?.totalSellingPrice}</span>
       </div>
     </div>
   );

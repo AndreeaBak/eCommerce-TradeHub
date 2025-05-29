@@ -48,42 +48,6 @@ export const menLevelThree=[
       "parentCategoryId": "men_topwear"
     },
     {
-      "name": "Men Rain Jackets",
-      "categoryId": "men_rain_jackets",
-      "parentCategoryName": "Topwear",
-      "parentCategoryId": "men_topwear"
-    },
-    {
-      "name": "Men Indian & Festive Wear",
-      "categoryId": "men_indian_and_festive_wear",
-      "parentCategoryName": "Topwear",
-      "parentCategoryId": "men_topwear"
-    },
-    {
-      "name": "Men Kurtas & Kurta Sets",
-      "categoryId": "men_kurtas_and_kurta_sets",
-      "parentCategoryName": "Topwear",
-      "parentCategoryId": "men_topwear"
-    },
-    {
-      "name": "Men Sherwanis",
-      "categoryId": "men_sherwanis",
-      "parentCategoryName": "Topwear",
-      "parentCategoryId": "men_topwear"
-    },
-    {
-      "name": "Men Nehru Jackets",
-      "categoryId": "men_nehru_jackets",
-      "parentCategoryName": "Topwear",
-      "parentCategoryId": "men_topwear"
-    },
-    {
-      "name": "Men Dhotis",
-      "categoryId": "men_dhotis",
-      "parentCategoryName": "Topwear",
-      "parentCategoryId": "men_topwear"
-    },
-    {
       "name": "Men Jeans",
       "categoryId": "men_jeans",
       "parentCategoryName": "Bottomwear",
@@ -117,37 +81,37 @@ export const menLevelThree=[
       "name": "Men Briefs & Trunks",
       "categoryId": "men_briefs_and_trunks",
       "parentCategoryName": "Innerwear & Sleepwear",
-      "parentCategoryId": "men_innerwear_and_sleepwear"
+      "parentCategoryId": "men_underwear_and_sleepwear"
     },
     {
       "name": "Men Boxers",
       "categoryId": "men_boxers",
       "parentCategoryName": "Innerwear & Sleepwear",
-      "parentCategoryId": "men_innerwear_and_sleepwear"
+      "parentCategoryId": "men_underwear_and_sleepwear"
     },
     {
       "name": "Men Vests",
       "categoryId": "men_vests",
       "parentCategoryName": "Innerwear & Sleepwear",
-      "parentCategoryId": "men_innerwear_and_sleepwear"
+      "parentCategoryId": "men_underwear_and_sleepwear"
     },
     {
       "name": "Men Sleepwear & Loungewear",
       "categoryId": "men_sleepwear_and_loungewear",
       "parentCategoryName": "Innerwear & Sleepwear",
-      "parentCategoryId": "men_innerwear_and_sleepwear"
+      "parentCategoryId": "men_underwear_and_sleepwear"
     },
     {
       "name": "Men Thermals",
       "categoryId": "men_thermals",
       "parentCategoryName": "Innerwear & Sleepwear",
-      "parentCategoryId": "men_innerwear_and_sleepwear"
+      "parentCategoryId": "men_underwear_and_sleepwear"
     },
     {
       "name": "Men Plus Size",
       "categoryId": "men_plus_size",
       "parentCategoryName": "Innerwear & Sleepwear",
-      "parentCategoryId": "men_innerwear_and_sleepwear"
+      "parentCategoryId": "men_underwear_and_sleepwear"
     },
     {
       "name": "Men Casual Shoes",

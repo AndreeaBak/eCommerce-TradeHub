@@ -3,37 +3,37 @@
         "categoryId": "laptops",
         "section": "ELECTRIC_CATEGORIES",
         "name": "Laptop",
-        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/x/9/j/-original-imahyjzh7m2zsqdg.jpeg?q=70"
+        "image": "https://s13emagst.akamaized.net/layout/ro/images/db/43/64049.jpg"
     },
     {
         "categoryId": "mobiles",
         "section": "ELECTRIC_CATEGORIES",
         "name": "Mobile",
-        "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/5/t/j/edge-50-fusion-pb300002in-motorola-original-imahywzrfagkuyxx.jpeg?q=70&crop=false"
+        "image": "https://s13emagst.akamaized.net/products/76828/76827247/images/res_8d2028a84a99e32106c6286f4f51abac.jpg?width=720&height=720&hash=E74D092090D0897BD34C6E5211F6170E"
     },
     {
         "categoryId": "smart_watches",
         "section": "ELECTRIC_CATEGORIES",
         "name": "Smartwatch",
-        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/f/g/g/-original-imagywnz46fngcks.jpeg?q=70"
+        "image": "https://s13emagst.akamaized.net/products/72739/72738371/images/res_191e7396a00b57dc740fd5f7c281d330.jpg?width=720&height=720&hash=94A93670381B20ADB1C5EFFA92FA0155"
     },
     {
         "categoryId": "headphones_headsets",
         "section": "ELECTRIC_CATEGORIES",
         "name": "Headphones",
-        "image": "https://rukminim2.flixcart.com/image/612/612/kz4gh3k0/headphone/c/v/r/-original-imagb7bmhdgghzxq.jpeg?q=70"
+        "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MUW33_AV3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=Sk5mNVdNcjhJbUs0R1JIajlMTVBnVlZya2lKWlJmUEwrYndWOTJiVWJWQUYwVmtIbGRkS25RMVpBRlo0bk5DUW9odXUzN3kxdU5pZjFrUWErZ2llTVE"
     },
     {
         "categoryId": "speakers",
         "section": "ELECTRIC_CATEGORIES",
         "name": "Speaker",
-        "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/6/z/2/-original-imahfgfkr5gkk9aq.jpeg?q=70"
+        "image": "https://www.jbhifi.com.au/cdn/shop/products/597794-Product-0-I-637945070583397301.jpg?v=1658874344"
     },
     {
         "categoryId": "television",
         "section": "ELECTRIC_CATEGORIES",
         "name": "Tv",
-        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/9/p/9/-original-imah2v29z86u7b79.jpeg?q=70"
+        "image": "https://s13emagst.akamaized.net/products/68722/68721957/images/res_9dfa5726e734a5bfaa174b1c562c1119.jpg?width=720&height=720&hash=E7F79E0A1ED7997729EBB2B756B2BB9F"
     },
     {
         "categoryId": "cameras",
@@ -109,7 +109,7 @@
       {
         "parentCategoryId":"women",
         
-        "name":"Lingerie Sleepwear",
+        "name":"Lingerie & Sleepwear",
         "categoryId": "women_lingerie_sleepwear",
         "section":"SHOP_BY_CATEGORIES",
         "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/362895/2023/10/18/bfb55058-fe1a-45d6-a39d-1b8d421e02001697603774147TriumphShapeSensation33withHighWaistTummyandThighControlMaxi1.jpg"
@@ -118,16 +118,16 @@
         {
           "parentCategoryId":"women",
           
-          "name":"Indian & fusion Wear",
-          "categoryId": "women_indian_and_fusion_wear",
+          "name":"Casual Style",
+          "categoryId": "women_casual_style",
           "section":"SHOP_BY_CATEGORIES",
           "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/22866694/2023/4/24/98951db4-e0a5-47f8-a1be-353863d24dc01682349679664KaliniOrangeSilkBlendEthnicWovenDesignFestiveSareewithMatchi2.jpg"
         },
         {
           "parentCategoryId":"women",
           
-          "name":"western wear",
-          "categoryId": "women_western_wear",
+          "name":"Office Style",
+          "categoryId": "women_office_style",
           "section":"SHOP_BY_CATEGORIES",
           "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/22391504/2023/3/17/3259c109-060a-4c39-aba2-e9d32e2068e41679049035856StyleQuotientPeach-ColouredTie-UpNeckPuffSleeveCottonTop1.jpg"
         },
@@ -140,7 +140,7 @@
           "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/28024048/2024/3/5/fca98389-f9d6-4f19-b82a-53c7ee0518ec1709633175836CORSICABlockSandalswithBows1.jpg"
         },
         {
-            "name": "Topwere",
+            "name": "Topwear",
             "categoryId": "men_topwear",
             "parentCategoryId":"men",
             
@@ -148,7 +148,7 @@
             "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23029834/2023/9/18/96c015ae-1090-4036-954b-d9c80085b1d71695022844653-HRX-by-Hrithik-Roshan-Men-Jackets-6981695022843934-1.jpg"
         },
         {
-            "name": "Bottomwere",
+            "name": "Bottomwear",
             "categoryId": "men_bottomwear",
             "parentCategoryId":"men",
             
@@ -156,15 +156,15 @@
             "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20122324/2022/9/22/91c61c45-fe17-4d1d-8e20-0aaaf90186b61663827920015RaymondSlimFitBlueJeansForMen1.jpg"
         },
         {
-            "name": "Innerwere And Sleepwere",
-            "categoryId": "men_innerwear_and_sleepwear",
+            "name": "Underwear And Sleepwear",
+            "categoryId": "men_underwear_and_sleepwear",
             "parentCategoryId":"men",
             
             "section":"SHOP_BY_CATEGORIES",
             "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24528350/2023/8/17/d9ee03c9-7e15-49e4-8f15-0b6f38e568121692275415567TrackPants1.jpg"
         },
         {
-            "name": "Footwere",
+            "name": "Footwear",
             "categoryId": "men_footwear",
             "parentCategoryId":"men",
             

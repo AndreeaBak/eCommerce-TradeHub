@@ -28,8 +28,8 @@ export const furnitureLevelThree = [
     "level": 3
   },
   {
-    "name": "Blankets, Quilts & Dohars",
-    "categoryId": "blankets_quilts_dohars",
+    "name": "Blankets",
+    "categoryId": "blankets",
     "parentCategoryName": "Bed Linen & Furnishing",
     "parentCategoryId": "bed_linen_furnishing",
     "level": 3
@@ -44,13 +44,6 @@ export const furnitureLevelThree = [
   {
     "name": "Bed Covers",
     "categoryId": "bed_covers",
-    "parentCategoryName": "Bed Linen & Furnishing",
-    "parentCategoryId": "bed_linen_furnishing",
-    "level": 3
-  },
-  {
-    "name": "Diwan Sets",
-    "categoryId": "diwan_sets",
     "parentCategoryName": "Bed Linen & Furnishing",
     "parentCategoryId": "bed_linen_furnishing",
     "level": 3
@@ -84,8 +77,8 @@ export const furnitureLevelThree = [
     "level": 3
   },
   {
-    "name": "Floor Mats & Dhurries",
-    "categoryId": "floor_mats_dhurries",
+    "name": "Floor Mats",
+    "categoryId": "floor_mats",
     "parentCategoryName": "Flooring",
     "parentCategoryId": "flooring",
     "level": 3
@@ -238,13 +231,6 @@ export const furnitureLevelThree = [
     "level": 3
   },
   {
-    "name": "Pooja Essentials",
-    "categoryId": "pooja_essentials",
-    "parentCategoryName": "Home Décor",
-    "parentCategoryId": "home_decor",
-    "level": 3
-  },
-  {
     "name": "Wall Shelves",
     "categoryId": "wall_shelves",
     "parentCategoryName": "Home Décor",
@@ -261,13 +247,6 @@ export const furnitureLevelThree = [
   {
     "name": "Showpieces & Vases",
     "categoryId": "showpieces_vases",
-    "parentCategoryName": "Home Décor",
-    "parentCategoryId": "home_decor",
-    "level": 3
-  },
-  {
-    "name": "Ottoman",
-    "categoryId": "ottoman",
     "parentCategoryName": "Home Décor",
     "parentCategoryId": "home_decor",
     "level": 3

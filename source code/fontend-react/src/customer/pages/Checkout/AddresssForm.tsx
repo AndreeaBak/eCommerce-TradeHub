@@ -17,7 +17,7 @@ import { Address } from '../../../types/userTypes';
 const ContactSchema = Yup.object().shape({
   name: Yup.string().required('Required'),
   mobile: Yup.string()
-    .matches(/^[6-9]\d{9}$/, 'Invalid mobile number')
+    .matches(/^[0-9]\d{9}$/, 'Invalid mobile number')
     .required('Required'),
   pinCode: Yup.string()
     .matches(/^\d{6}$/, 'Invalid pincode')

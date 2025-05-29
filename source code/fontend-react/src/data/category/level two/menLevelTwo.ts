@@ -1,31 +1,31 @@
 export const menLevelTwo=[
     {
-        "name": "Topwere",
+        "name": "Topwear",
         "categoryId": "men_topwear",
         "parentCategoryId":"men",
         "level":2
     },
     {
-        "name": "Bottomwere",
+        "name": "Bottomwear",
         "categoryId": "men_bottomwear",
         "parentCategoryId":"men",
         "level":2
     },
     {
-        "name": "Innerwere And Sleepwere",
-        "categoryId": "men_innerwear_and_sleepwear",
+        "name": "Underwear And Sleepwear",
+        "categoryId": "men_underwear_and_sleepwear",
         "parentCategoryId":"men",
         "level":2
     },
     {
-        "name": "Footwere",
+        "name": "Footwear",
         "categoryId": "men_footwear",
         "parentCategoryId":"men",
         "level":2
     },
     {
-        "name": "Persional Care And  grooming",
-        "categoryId": "men_personal_care_and_grooming",
+        "name": "Personal Care",
+        "categoryId": "men_personal_care",
         "parentCategoryId":"men",
         "level":2
     },

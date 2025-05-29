@@ -4,7 +4,7 @@ export const homeCategories = [
     section: "ELECTRIC_CATEGORIES",
     name: "Gaming Laptop",
     image:
-      "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/x/9/j/-original-imahyjzh7m2zsqdg.jpeg?q=70",
+      "https://s13emagst.akamaized.net/layout/ro/images/db/43/64049.jpg",
   },
   {
     categoryId: "mobiles",
@@ -119,7 +119,7 @@ export const homeCategories = [
   {
     parentCategoryId: "women",
 
-    name: "Lingerie Sleepwear",
+    name: "Lingerie & Sleepwear",
     categoryId: "women_lingerie_sleepwear",
     section: "SHOP_BY_CATEGORIES",
     image:
@@ -129,8 +129,8 @@ export const homeCategories = [
   {
     parentCategoryId: "women",
 
-    name: "Indian & fusion Wear",
-    categoryId: "women_indian_and_fusion_wear",
+    name: "Casual Style",
+    categoryId: "women_casual_style",
     section: "SHOP_BY_CATEGORIES",
     image:
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/22866694/2023/4/24/98951db4-e0a5-47f8-a1be-353863d24dc01682349679664KaliniOrangeSilkBlendEthnicWovenDesignFestiveSareewithMatchi2.jpg",
@@ -138,8 +138,8 @@ export const homeCategories = [
   {
     parentCategoryId: "women",
 
-    name: "western wear",
-    categoryId: "women_western_wear",
+    name: "Office Style",
+    categoryId: "women_office_style",
     section: "SHOP_BY_CATEGORIES",
     image:
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/22391504/2023/3/17/3259c109-060a-4c39-aba2-e9d32e2068e41679049035856StyleQuotientPeach-ColouredTie-UpNeckPuffSleeveCottonTop1.jpg",
@@ -154,7 +154,7 @@ export const homeCategories = [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/28024048/2024/3/5/fca98389-f9d6-4f19-b82a-53c7ee0518ec1709633175836CORSICABlockSandalswithBows1.jpg",
   },
   {
-    name: "Topwere",
+    name: "Topwear",
     categoryId: "men_topwear",
     parentCategoryId: "men",
 
@@ -163,7 +163,7 @@ export const homeCategories = [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23029834/2023/9/18/96c015ae-1090-4036-954b-d9c80085b1d71695022844653-HRX-by-Hrithik-Roshan-Men-Jackets-6981695022843934-1.jpg",
   },
   {
-    name: "Bottomwere",
+    name: "Bottomwear",
     categoryId: "men_bottomwear",
     parentCategoryId: "men",
 
@@ -172,8 +172,8 @@ export const homeCategories = [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20122324/2022/9/22/91c61c45-fe17-4d1d-8e20-0aaaf90186b61663827920015RaymondSlimFitBlueJeansForMen1.jpg",
   },
   {
-    name: "Innerwere And Sleepwere",
-    categoryId: "men_innerwear_and_sleepwear",
+    name: "Underwear And Sleepwear",
+    categoryId: "men_underwear_and_sleepwear",
     parentCategoryId: "men",
 
     section: "SHOP_BY_CATEGORIES",
@@ -181,7 +181,7 @@ export const homeCategories = [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24528350/2023/8/17/d9ee03c9-7e15-49e4-8f15-0b6f38e568121692275415567TrackPants1.jpg",
   },
   {
-    name: "Footwere",
+    name: "Footwear",
     categoryId: "men_footwear",
     parentCategoryId: "men",
 
@@ -228,7 +228,7 @@ export const homeCategories = [
   },
   {
     name: "Women Skirts",
-    categoryId: "women_skirts_palazzos",
+    categoryId: "women_skirts",
     section: "DEALS",
     image: "https://rukminim2.flixcart.com/image/612/612/xif0q/skirt/k/o/h/free-1-00003-custom-fashion-original-imagztykafwbqupf.jpeg?q=70",
   },
@@ -241,7 +241,7 @@ export const homeCategories = [
   
   {
     name: "Women Saree",
-    categoryId: "women_sarees",
+    categoryId: "women_dresses",
     section: "DEALS",
     image: "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/z/a/4/free-saree-new2023-simple-light-weight-saree-chiffon-print-saree-original-imagzyhp2azy7rwz.jpeg?q=70&crop=false",
   },

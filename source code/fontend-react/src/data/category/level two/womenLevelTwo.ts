@@ -2,14 +2,14 @@ export const womenLevelTwo=[
     {
       "parentCategoryId":"women",
       "level":2,
-      "name":"Indian & fusion Wear",
-      "categoryId": "women_indian_and_fusion_wear"
+      "name":"Casual Style",
+      "categoryId": "women_casual_style"
     },
     {
       "parentCategoryId":"women",
       "level":2,
-      "name":"western wear",
-      "categoryId": "women_western_wear"
+      "name":"Office Style",
+      "categoryId": "women_office_style"
     },
     {
       "parentCategoryId":"women",
@@ -26,13 +26,13 @@ export const womenLevelTwo=[
     {
       "parentCategoryId":"women",
       "level":2,
-      "name":"Lingerie Sleepwear",
+      "name":"Lingerie & Sleepwear",
       "categoryId": "women_lingerie_sleepwear"
     },
     {
       "parentCategoryId":"women",
       "level":2,
-      "name":"Buauty & Personal Care",
+      "name":"Beauty & Personal Care",
       "categoryId": "women_beauty_personal_care"
     },
     {
@@ -50,7 +50,7 @@ export const womenLevelTwo=[
     {
       "parentCategoryId":"women",
       "level":2,
-      "name":"Handbags, Bags & wallets",
+      "name":"Handbags, Bags & Wallets",
       "categoryId": "women_handbags_bags_wallets"
     }
   ]

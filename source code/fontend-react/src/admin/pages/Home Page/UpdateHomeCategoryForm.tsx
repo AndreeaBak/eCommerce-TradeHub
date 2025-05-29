@@ -20,7 +20,7 @@ import { womenLevelThree } from "../../../data/category/level three/womenLevelTh
 import { furnitureLevelThree } from "../../../data/category/level three/furnitureLevelThree";
 import { electronicsLevelThree } from "../../../data/category/level three/electronicsLevelThree";
 import { furnitureLevelTwo } from "../../../data/category/level two/furnitureLevleTwo";
-import { electronicsLevelTwo } from "../../../data/category/level two/electronicsLavelTwo";
+import { electronicsLevelTwo } from "../../../data/category/level two/electronicsLevelTwo";
 import { useAppDispatch } from "../../../Redux Toolkit/Store";
 import { updateHomeCategory } from "../../../Redux Toolkit/Admin/AdminSlice";
 import { HomeCategory } from "../../../types/homeDataTypes";

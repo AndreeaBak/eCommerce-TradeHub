@@ -1,11 +1,11 @@
 [
     {
-        "title": "Ethnic Motifs Woven Design Zari Kanjeevaram Saree",
-        "description": "Purple and silver-toned kanjeevaram saree\nEthnic motifs woven design saree with woven design border\nHas zari detail\n\nThe saree comes with an unstitched blouse piece\nThe blouse worn by the model might be for modelling purpose only. Check the image of the blouse piece to understand how the actual blouse piece looks like.",
-        "mrpPrice": 4999,
-        "sellingPrice": 2499,
+        "title": "Casual Black Solid A-Line Dress",
+        "description": "Black casual A-line dress with a simple solid design. Features a comfortable fit, round neckline, and short sleeves. Perfect for everyday wear or casual outings. The dress is made from soft, breathable fabric for all-day comfort.",
+        "mrpPrice": 300,
+        "sellingPrice": 270,
         "quantity": "",
-        "color": "Purple",
+        "color": "Black",
         "images": [
             "http://res.cloudinary.com/dxoqwusir/image/upload/v1725359611/SUHANI-2011_5_nrwwhr.webp",
             "http://res.cloudinary.com/dxoqwusir/image/upload/v1725359617/SUHANI-2011_4_rsj092.webp",
@@ -13,17 +13,17 @@
             "http://res.cloudinary.com/dxoqwusir/image/upload/v1725359634/SUHANI-2011_2_byfz48.webp"
         ],
         "category": "women",
-        "category2": "women_indian_and_fusion_wear",
-        "category3": "women_sarees",
+        "category2": "women_casual_style",
+        "category3": "women_dresses",
         "sizes": "FREE"
     },
     {
-        "title": "Ethnic Motifs Woven Design Zari Kanjeevaram Saree",
-        "description": "Purple and silver-toned kanjeevaram saree\nEthnic motifs woven design saree with woven design border\nHas zari detail\n\nThe saree comes with an unstitched blouse piece\nThe blouse worn by the model might be for modelling purpose only. Check the image of the blouse piece to understand how the actual blouse piece looks like.",
-        "mrpPrice": 4999,
-        "sellingPrice": 2499,
+        "title": "Floral Print Summer Dress",
+        "description": "Lightweight and breezy summer dress featuring a vibrant floral print. Designed for comfort during warm weather, it offers a relaxed fit, sleeveless style, and a flattering silhouette. Ideal for beach outings, picnics, or casual summer gatherings.",
+        "mrpPrice": 150,
+        "sellingPrice": 120,
         "quantity": "",
-        "color": "Purple",
+        "color": "Yellow",
         "images": [
             "http://res.cloudinary.com/dxoqwusir/image/upload/v1725359611/SUHANI-2011_5_nrwwhr.webp",
             "http://res.cloudinary.com/dxoqwusir/image/upload/v1725359617/SUHANI-2011_4_rsj092.webp",
@@ -31,8 +31,8 @@
             "http://res.cloudinary.com/dxoqwusir/image/upload/v1725359634/SUHANI-2011_2_byfz48.webp"
         ],
         "category": "women",
-        "category2": "women_indian_and_fusion_wear",
-        "category3": "women_sarees",
+        "category2": "women_casual_style",
+        "category3": "women_dresses",
         "sizes": "FREE"
     }
 ]

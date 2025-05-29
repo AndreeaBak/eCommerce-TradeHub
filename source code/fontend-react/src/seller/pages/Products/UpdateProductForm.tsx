@@ -29,7 +29,7 @@ import { useAppDispatch, useAppSelector } from "../../../Redux Toolkit/Store";
 import { createProduct, updateProduct } from "../../../Redux Toolkit/Seller/sellerProductSlice";
 import { uploadToCloudinary } from "../../../util/uploadToCloudnary";
 import { electronicsLevelThree } from "../../../data/category/level three/electronicsLevelThree";
-import { electronicsLevelTwo } from "../../../data/category/level two/electronicsLavelTwo";
+import { electronicsLevelTwo } from "../../../data/category/level two/electronicsLevelTwo";
 import { furnitureLevelTwo } from "../../../data/category/level two/furnitureLevleTwo";
 import { furnitureLevelThree } from "../../../data/category/level three/furnitureLevelThree";
 import { useParams } from "react-router-dom";
